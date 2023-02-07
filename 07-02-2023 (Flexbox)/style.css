@@ -1,0 +1,90 @@
+/* #main{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+}
+#pics{
+    margin-left: 800px;
+    border: 2px solid black;
+}
+#t{
+    margin-left: 400px;
+}
+#t:hover{
+    background-color: black;
+    
+}
+a:hover{
+    color: white;
+} */
+/* img{
+    height: 100px;
+    width: 100px;
+}
+
+img:hover{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top:100px ;
+    margin-right:100px ;
+    margin-bottom:100px ;
+} */
+
+#parent{
+    border: 2px solid black;
+    height: 700px;
+    display: flex;
+    /* flex-direction: row; */
+/* flex-direction: row-reverse; */
+/* flex-direction:column;
+flex-wrap: wrap; */
+
+/* flex-flow: row-reverse wrap; */
+/* Horizontal Properties */
+/* justify-content: center; */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+/* justify-content: space-evenly; */
+/* justify-content: flex-end; */
+/* justify-content: flex-start; */
+/* Vertical Properties */
+/* align-items: center; */
+/* align-items: flex-end; */
+/* align-items: stretch; */
+/* align-content: center; */
+/* align-content: space-between; */
+/* gap: 40px; */
+
+}
+
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    
+}
+#child2{
+    height: 200px;
+    width: 200px;
+   /* order: 10; */
+   /* flex-grow: 2; */
+   /* flex-basis: 70%; */
+   /* align-self: center; */
+   
+
+   
+    
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
